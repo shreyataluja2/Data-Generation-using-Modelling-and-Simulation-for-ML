@@ -51,7 +51,7 @@ The entire implementation was developed and executed using **Google Colab**.
 <https://colab.research.google.com/github/shreyataluja2/Data-Generation-using-Modelling-and-Simulation-for-ML/blob/main/simulation_ml.ipynb>
 
 Notebook file:
-simulation_ml.ipynb
+**simulation_ml.ipynb**
 
 
 The notebook includes:
@@ -88,7 +88,7 @@ Each model was evaluated using the following metrics:
 ## Results Table
 The performance comparison of all machine learning models is stored in the following file:
 
-results_table.csv
+**results_table.csv**
 
 
 ---
@@ -106,7 +106,7 @@ The graph clearly shows that ensemble-based models outperform linear models due 
 The best-performing model achieved the highest R² score with the lowest error metrics.
 
 📄 Best model summary:
-best_model.txt
+**best_model.txt**
 
 
 ---
@@ -124,14 +124,30 @@ Python, Google Colab, NumPy, Pandas, scikit-learn, XGBoost, Matplotlib, and Seab
 
 ---
 
-## Repository Contents
-simulation_ml.ipynb
-traffic_simulation_dataset.csv
-results_table.csv
-best_model.txt
-model_comparison_r2.png
-README.md
-requirements.txt
+## Repository Files Description
+
+The repository contains the following files, each serving a specific purpose in the project:
+
+- **simulation_ml.ipynb**  
+  Google Colab notebook containing the complete implementation of the simulation model, data generation process, machine learning training, evaluation, and visualization.
+
+- **traffic_simulation_dataset.csv**  
+  The synthetic dataset generated using the simulation model. It contains 1000 simulation samples with input parameters and the corresponding output variable (average waiting time).
+
+- **results_table.csv**  
+  A CSV file containing the performance comparison of all machine learning models evaluated in the project using MAE, RMSE, and R² Score.
+
+- **best_model.txt**  
+  A text file summarizing the best-performing machine learning model based on evaluation metrics.
+
+- **model_comparison_r2.png**  
+  A visualization comparing the R² scores of different machine learning models, highlighting the performance differences among them.
+
+- **README.md**  
+  Documentation file explaining the project objective, methodology, simulation approach, dataset generation, results, and conclusions.
+
+- **requirements.txt**  
+  A list of Python dependencies required to run the notebook and reproduce the results.
 
 
 ---

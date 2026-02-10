@@ -1,0 +1,2 @@
+Best Model: Ridge Regression
+R2 Score: 0.895
